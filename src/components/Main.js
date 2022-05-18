@@ -5,9 +5,7 @@ import Confirm from './Confirm';
 import Completed from './Completed';
 
 
-function Main({operation,setOperation,login}) {
-  const [weenusBalance] = useState(20000);
-  const [rethBalance] = useState(32);
+function Main({operation,setOperation,login,userBalance,weenusBalance}) {
   const [amount , setAmount] = useState(0);
   const [sendTo , setSendTo] = useState('');
   const [currencyType , setCurrencyType] = useState('WEENUS')
@@ -49,7 +47,7 @@ function Main({operation,setOperation,login}) {
             <span>WEENUS</span>
           </button>
         </div>
-        <p className='asset-available'>Available Balance {currencyType==='WEENUS'?weenusBalance + ' WEENUS':rethBalance + ' rETH'}</p>
+        <p className='asset-available'>Available Balance {currencyType==='WEENUS'?weenusBalance + ' WEENUS':userBalance + ' rETH'}</p>
       </div>
       <div className='amount'>
         <p className='amount-label label'>Amount:</p>
@@ -62,7 +60,7 @@ function Main({operation,setOperation,login}) {
             if(currencyType==='WEENUS'){
               setAmount(weenusBalance * 0.1);
             }else{
-              setAmount(rethBalance * 0.1)
+              setAmount(userBalance * 0.1)
             }
             addActive(element)
           }}>10%</button>
@@ -70,7 +68,7 @@ function Main({operation,setOperation,login}) {
             if(currencyType==='WEENUS'){
               setAmount(weenusBalance * 0.25);
             }else{
-              setAmount(rethBalance * 0.25)
+              setAmount(userBalance * 0.25)
             }
             addActive(element)
           }}>25%</button>
@@ -78,7 +76,7 @@ function Main({operation,setOperation,login}) {
             if(currencyType==='WEENUS'){
               setAmount(weenusBalance * 0.5);
             }else{
-              setAmount(rethBalance * 0.5)
+              setAmount(userBalance * 0.5)
             }
             addActive(element)
           }}>50%</button>
@@ -86,7 +84,7 @@ function Main({operation,setOperation,login}) {
             if(currencyType==='WEENUS'){
               setAmount(weenusBalance * 0.75);
             }else{
-              setAmount(rethBalance * 0.75)
+              setAmount(userBalance * 0.75)
             }
             addActive(element)
           }}>75%</button>
@@ -94,7 +92,7 @@ function Main({operation,setOperation,login}) {
             if(currencyType==='WEENUS'){
               setAmount(weenusBalance);
             }else{
-              setAmount(rethBalance)
+              setAmount(userBalance)
             }
             addActive(element)
           }}>100%</button>

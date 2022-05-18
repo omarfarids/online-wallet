@@ -2,17 +2,21 @@
   "name": "sovryn",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://omarfarids.github.io/online-wallet.github.io/",
+  "homepage": "https://omarfarids.github.io/online-wallet.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "ethers": "^5.6.6",
     "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "save-dev": "^0.0.1-security",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +43,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarfarids/online-wallet.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omarfarids/online-wallet.github.io/issues"
   }
 }
