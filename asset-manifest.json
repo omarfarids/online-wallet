@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/online-wallet.github.io/static/css/main.9bc405a0.css",
-    "main.js": "/online-wallet.github.io/static/js/main.581f3ab5.js",
-    "static/js/787.0142a9df.chunk.js": "/online-wallet.github.io/static/js/787.0142a9df.chunk.js",
-    "index.html": "/online-wallet.github.io/index.html",
-    "main.9bc405a0.css.map": "/online-wallet.github.io/static/css/main.9bc405a0.css.map",
-    "main.581f3ab5.js.map": "/online-wallet.github.io/static/js/main.581f3ab5.js.map",
-    "787.0142a9df.chunk.js.map": "/online-wallet.github.io/static/js/787.0142a9df.chunk.js.map"
+    "main.css": "/online-wallet/static/css/main.9bc405a0.css",
+    "main.js": "/online-wallet/static/js/main.df802eec.js",
+    "static/js/787.0142a9df.chunk.js": "/online-wallet/static/js/787.0142a9df.chunk.js",
+    "index.html": "/online-wallet/index.html",
+    "main.9bc405a0.css.map": "/online-wallet/static/css/main.9bc405a0.css.map",
+    "main.df802eec.js.map": "/online-wallet/static/js/main.df802eec.js.map",
+    "787.0142a9df.chunk.js.map": "/online-wallet/static/js/787.0142a9df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bc405a0.css",
-    "static/js/main.581f3ab5.js"
+    "static/js/main.df802eec.js"
   ]
 }
