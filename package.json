@@ -2,7 +2,7 @@
   "name": "sovryn",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://omarfarids.github.io/online-wallet.github.io/",
+  "homepage": "https://omarfarids.github.io/online-wallet",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
